@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EPO>
+  <Identifier>Equivalence Partition defintition</Identifier>
+  <Class>
+    <Name>Date</Name>
+    <Valid>Data válida</Valid>
+    <Invalid>Data inválida</Invalid>
+  </Class>
+  <Class>
+    <Name>Progressive</Name>
+    <Valid>Informado pelo sistema valido</Valid>
+    <Invalid>Invalido (negativo)</Invalid>
+  </Class>
+  <Class>
+    <Name>Patient (code)</Name>
+    <Valid>code válido</Valid>
+    <Invalid>code inválido</Invalid>
+  </Class>
+  <Class>
+    <Name>Patient (patient)</Name>
+    <Valid>válido (valores validos)</Valid>
+    <Invalid>inválido (inesperado)</Invalid>
+    <Invalid>invalido (esperado)</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine (code)</Name>
+    <Valid>Válido</Valid>
+    <Invalid>Invalido</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine Type</Name>
+    <Valid>Válido</Valid>
+    <Invalid>Inálido (esperado)</Invalid>
+  </Class>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data inválida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Invalido (negativo)</Element>
+    <Element>code válido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code inválido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>inválido (inesperado)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>invalido (esperado)</Element>
+    <Element>Válido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Invalido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida</Element>
+    <Element>Informado pelo sistema valido</Element>
+    <Element>code válido</Element>
+    <Element>válido (valores validos)</Element>
+    <Element>Válido</Element>
+    <Element>Inálido (esperado)</Element>
+    <Split>False</Split>
+  </TestCase>
+</EPO>
