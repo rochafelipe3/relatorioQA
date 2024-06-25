@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EPO>
+  <Identifier>Equivalence Partition defintition</Identifier>
+  <Class>
+    <Name>Vaccine</Name>
+    <Valid>Vaccine válida</Valid>
+    <Invalid>Vaccine inválida</Invalid>
+    <Invalid>Vaccine inesperada</Invalid>
+  </Class>
+  <TestCase>
+    <Element>Vaccine válida</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Vaccine inválida</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Vaccine inesperada</Element>
+    <Split>False</Split>
+  </TestCase>
+</EPO>

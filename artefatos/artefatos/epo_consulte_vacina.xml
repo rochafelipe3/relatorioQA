@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EPO>
+  <Identifier>Equivalence Partition defintition</Identifier>
+  <Class>
+    <Name>Date from</Name>
+    <Valid>Date válido</Valid>
+    <Invalid>Date inválido</Invalid>
+    <Invalid>Date inesperado</Invalid>
+  </Class>
+  <Class>
+    <Name>Date to</Name>
+    <Valid>Date válido</Valid>
+    <Invalid>Date inválido</Invalid>
+    <Invalid>Date inesperado</Invalid>
+  </Class>
+  <Class>
+    <Name>Age to</Name>
+    <Valid>Número int válido</Valid>
+    <Invalid>Número int inválido</Invalid>
+  </Class>
+  <Class>
+    <Name>Age from</Name>
+    <Valid>Número int válido</Valid>
+    <Invalid>Número int inválido</Invalid>
+  </Class>
+  <Class>
+    <Name>Sex</Name>
+    <Valid>Male</Valid>
+    <Valid>Female</Valid>
+    <Valid>All</Valid>
+    <Invalid>Inválido</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine Type</Name>
+    <Valid>Child</Valid>
+    <Valid>Adult</Valid>
+    <Valid>Pregnant</Valid>
+    <Valid>No pregnant</Valid>
+    <Invalid>Tipo Inválido</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine</Name>
+    <Valid>Válido</Valid>
+    <Invalid>Inválido</Invalid>
+  </Class>
+  <TestCase>
+    <Element>Red</Element>
+    <Element>Yellow</Element>
+    <Element> </Element>
+    <Element>Left</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Blue</Element>
+    <Element>Brown</Element>
+    <Element> </Element>
+    <Element>Right</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Black</Element>
+    <Element>Brown</Element>
+    <Element> </Element>
+    <Element>Right</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>White</Element>
+    <Element>Brown</Element>
+    <Element> </Element>
+    <Element>Right</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Lavendel is a beautiful color but also very long</Element>
+    <Element>Yellow</Element>
+    <Element> </Element>
+    <Element>Left</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Purple</Element>
+    <Element>Yellow</Element>
+    <Element> </Element>
+    <Element>Left</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Red</Element>
+    <Element>White</Element>
+    <Element> </Element>
+    <Element>Left</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Red</Element>
+    <Element>Black</Element>
+    <Element> </Element>
+    <Element>Left</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Red</Element>
+    <Element>Yellow</Element>
+    <Element> </Element>
+    <Element>Center</Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Element> </Element>
+    <Split>False</Split>
+  </TestCase>
+</EPO>
