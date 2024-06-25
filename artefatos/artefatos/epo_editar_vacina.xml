@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EPO>
+  <Identifier>Equivalence Partition defintition</Identifier>
+  <Class>
+    <Name>Date</Name>
+    <Valid>Data válida formato</Valid>
+    <Invalid>Data inválida formato</Invalid>
+    <Invalid>Data invalida</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine type</Name>
+    <Valid>Valido</Valid>
+    <Invalid>Invalido</Invalid>
+    <Invalid>Inesperado</Invalid>
+  </Class>
+  <Class>
+    <Name>Vaccine</Name>
+    <Valid>Válido</Valid>
+    <Invalid>Inválido</Invalid>
+    <Invalid>Inesperado</Invalid>
+  </Class>
+  <TestCase>
+    <Element>Data válida formato</Element>
+    <Element>Valido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data inválida formato</Element>
+    <Element>Valido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data invalida</Element>
+    <Element>Valido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida formato</Element>
+    <Element>Invalido</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida formato</Element>
+    <Element>Inesperado</Element>
+    <Element>Válido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida formato</Element>
+    <Element>Valido</Element>
+    <Element>Inválido</Element>
+    <Split>False</Split>
+  </TestCase>
+  <TestCase>
+    <Element>Data válida formato</Element>
+    <Element>Valido</Element>
+    <Element>Inesperado</Element>
+    <Split>False</Split>
+  </TestCase>
+</EPO>
