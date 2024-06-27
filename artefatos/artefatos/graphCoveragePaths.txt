@@ -1,0 +1,28 @@
+12 test paths are needed for Edge-Pair Coverage
+Test Paths	Test Requirements that are toured by test paths directly
+[Initial,VlistEmpty,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [VlistEmpty,Initial,VlistEmpty]
+[Initial,VlistEmpty,Initial,VnotEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VnotEmpty,Initial], [VlistEmpty,Initial,VnotEmpty]
+[Initial,VnotEmpty,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VnotEmpty,Initial], [VnotEmpty,Initial,VlistEmpty]
+[Initial,VnotEmpty,Initial,VnotEmpty,Initial]	[Initial,VnotEmpty,Initial], [VnotEmpty,Initial,VnotEmpty]
+[Initial,VlistEmpty,VaccineAdded,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VlistEmpty,VaccineAdded], [VlistEmpty,VaccineAdded,Initial], [VaccineAdded,Initial,VlistEmpty]
+[Initial,VlistEmpty,VaccineAdded,Initial,VnotEmpty,Initial]	[Initial,VlistEmpty,VaccineAdded], [Initial,VnotEmpty,Initial], [VlistEmpty,VaccineAdded,Initial], [VaccineAdded,Initial,VnotEmpty]
+[Initial,VnotEmpty,VaccineEdited,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VnotEmpty,VaccineEdited], [VnotEmpty,VaccineEdited,Initial], [VaccineEdited,Initial,VlistEmpty]
+[Initial,VnotEmpty,VaccineEdited,Initial,VnotEmpty,Initial]	[Initial,VnotEmpty,Initial], [Initial,VnotEmpty,VaccineEdited], [VnotEmpty,VaccineEdited,Initial], [VaccineEdited,Initial,VnotEmpty]
+[Initial,VnotEmpty,VaccineDeleted,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VnotEmpty,VaccineDeleted], [VnotEmpty,VaccineDeleted,Initial], [VaccineDeleted,Initial,VlistEmpty]
+[Initial,VnotEmpty,VaccineDeleted,Initial,VnotEmpty,Initial]	[Initial,VnotEmpty,Initial], [Initial,VnotEmpty,VaccineDeleted], [VnotEmpty,VaccineDeleted,Initial], [VaccineDeleted,Initial,VnotEmpty]
+[Initial,VnotEmpty,VaccineFounded,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial], [Initial,VnotEmpty,VaccineFounded], [VnotEmpty,VaccineFounded,Initial], [VaccineFounded,Initial,VlistEmpty]
+[Initial,VnotEmpty,VaccineFounded,Initial,VnotEmpty,Initial]	[Initial,VnotEmpty,Initial], [Initial,VnotEmpty,VaccineFounded], [VnotEmpty,VaccineFounded,Initial], [VaccineFounded,Initial,VnotEmpty]
+Test Paths	Test Requirements that are toured by test paths with sidetrips
+[Initial,VlistEmpty,Initial,VlistEmpty,Initial]	[Initial,VlistEmpty,Initial]
+[Initial,VlistEmpty,Initial,VnotEmpty,Initial]	[Initial,VlistEmpty,Initial]
+[Initial,VnotEmpty,Initial,VlistEmpty,Initial]	[Initial,VnotEmpty,Initial]
+[Initial,VnotEmpty,Initial,VnotEmpty,Initial]	[Initial,VnotEmpty,Initial]
+[Initial,VlistEmpty,VaccineAdded,Initial,VlistEmpty,Initial]	[VlistEmpty,VaccineAdded,Initial]
+[Initial,VlistEmpty,VaccineAdded,Initial,VnotEmpty,Initial]	[VlistEmpty,VaccineAdded,Initial]
+[Initial,VnotEmpty,VaccineEdited,Initial,VlistEmpty,Initial]	[VnotEmpty,VaccineEdited,Initial]
+[Initial,VnotEmpty,VaccineEdited,Initial,VnotEmpty,Initial]	[VnotEmpty,VaccineEdited,Initial]
+[Initial,VnotEmpty,VaccineDeleted,Initial,VlistEmpty,Initial]	[VnotEmpty,VaccineDeleted,Initial]
+[Initial,VnotEmpty,VaccineDeleted,Initial,VnotEmpty,Initial]	[VnotEmpty,VaccineDeleted,Initial]
+[Initial,VnotEmpty,VaccineFounded,Initial,VlistEmpty,Initial]	[VnotEmpty,VaccineFounded,Initial]
+[Initial,VnotEmpty,VaccineFounded,Initial,VnotEmpty,Initial]	[VnotEmpty,VaccineFounded,Initial]
+Infeasible Edge-Pairs are:
